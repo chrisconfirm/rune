@@ -43,17 +43,17 @@ datapush R, datapush transfer, datapush issuance
 = _SYMBOL (base26)_ RUNE, _DECIMALS (hex)_ 18  
 ```
 **Note** that the ordinalswallet implementation is encoding the _Symbol_ through Base64 and varint into little endian!  
-How to decode the _Symbol_ pushstring: ff 98 78 06 01 00 00 00 00  
+```
+How to decode the _Symbol_ pushstring:
+ff 98 78 06 01 00 00 00 00  
+  
 0xff tells us the next 8 bytes are little endian, which means we need to swap them around:  
-```
 00 00 00 00 01 06 78 98  
-```
+  
 This hex decodes to a decimal:  
-```
 17201304
-```  
+  
 Which in turn decodes to a character string via base26 with 00=A:  
-```
 17 20 13 04  
 = RUNE   
 ```
