@@ -49,7 +49,7 @@ How to decode the SYMBOL pushstring:
   17201304  
 - Which in turn decodes to a character string via base26 with 00=A:  
   17 20 13 04  
-  = RUNE   
+= RUNE   
 ```
 
 ## Other Implementations
