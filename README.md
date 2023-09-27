@@ -49,7 +49,7 @@ How to decode the _Symbol_ pushstring: ff 98 78 06 01 00 00 00 00
 ```
 This hex decodes to a decimal:  
 ```
-17201304  ```
+17201304```  
 Which in turn decodes to a character string via base26 with 00=A:  
 ```
 17 20 13 04  
