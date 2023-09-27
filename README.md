@@ -30,7 +30,7 @@ In a mint tx this is then followed by an additional _issuance_ data push:
 
 Note that the ordinalswallet implementation is encoding the _Symbol_ through Base64 and varint into little endian!  
 How to decode the _Symbol_ pushstring: ff 98 78 06 01 00 00 00 00  
-- ff tells us the next 8 bytes are little endian, which means we need to swap them around:  
+- 0xff tells us the next 8 bytes are little endian, which means we need to swap them around:  
 00 00 00 00 01 06 78 98  
 - This hex decodes to a decimal:  
 17201304  
