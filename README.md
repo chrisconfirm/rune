@@ -41,7 +41,7 @@ It is divided into substrings by OP_PUSHBYTES opcodes, here it is 0x01, 0x0b, 0x
 = 00 00 00 00 01 06 78 98, 12  
 = _SYMBOL (base26)_ RUNE, _DECIMALS (hex)_ 18  
 ```
-#### Note that the ordinalswallet implementation is encoding the _Symbol_ through Base64 and varint into little endian!  
+Note that the ordinalswallet implementation is encoding the _Symbol_ through Base64 and varint into little endian!  
 How to decode the _Symbol_ pushstring: ff 98 78 06 01 00 00 00 00  
 0xff tells us the next 8 bytes are little endian, which means we need to swap them around:  
 ```
