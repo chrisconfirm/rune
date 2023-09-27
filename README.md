@@ -11,3 +11,5 @@ cargo test
 ## Other Implementations
 
 - https://github.com/Anarkoic/runes
+- https://gist.github.com/revofusion/ba74dc11e0b007feba84b7b492e5ee87
+- https://github.com/rot13maxi/ruin
