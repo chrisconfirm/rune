@@ -10,7 +10,8 @@ cargo test
 
 ## Example 
 
-Let's examine the hex of the first ordinalswallet rune tx. See https://mempool.space/api/tx/1aa98283f61cea9125aea58441067baca2533e2bbf8218b5e4f9ef7b8c0d8c30/hex  
+Let's examine the hex of the first ordinalswallet rune tx. 
+```See https://mempool.space/api/tx/1aa98283f61cea9125aea58441067baca2533e2bbf8218b5e4f9ef7b8c0d8c30/hex  ```
 
 #### ScriptPubKey
 The rune data is provided within the ScriptPubKey section:  
