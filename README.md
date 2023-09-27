@@ -2,6 +2,12 @@
 
 A reference implementation of the rune protocol. The goal of this project is to find consensus around the rune protocol and implement an index. 
 
+## Testing
+
+```
+cargo test
+```
+
 ## Example 
 
 Let's examine the hex of the first ordinalswallet rune tx. See https://mempool.space/api/tx/1aa98283f61cea9125aea58441067baca2533e2bbf8218b5e4f9ef7b8c0d8c30/hex  
@@ -34,15 +40,9 @@ How to decode the _Symbol_ pushstring: ff 98 78 06 01 00 00 00 00
 00 00 00 00 01 06 78 98  
 - This hex decodes to a decimal:  
 17201304  
-- Which is in turn decoded to a character string via base26 with 00=A:  
+- Which in turn decodes to a character string via base26 with 00=A:  
 17 20 13 04  
 = RUNE   
-
-## Testing
-
-```
-cargo test
-```
 
 ## Other Implementations
 
